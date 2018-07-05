@@ -100,10 +100,6 @@
         $array_LOG[] = 'Стоп: ' . get_time('time') . "\r\n";
         $array_LOG[] = '=====================================' . "\r" . "\r";
 
-
-        /*
-        * Обновить файл лога
-        */
         foreach ($array_LOG as $value_log) {
           $fp = fopen(__FILE_LOG__, "a");
             $mytext = $value_log;
