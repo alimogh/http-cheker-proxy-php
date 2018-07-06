@@ -35,7 +35,7 @@
         $fp = fopen(__FILE_GOODS__, "w+");
 
         $HTTP_PROXY_GET_FILE = file(__FILE_SOURCE__);
-
+ 
         $count = 1;
         $count_proxy = 0;
         $count_error = 0;
