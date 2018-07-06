@@ -1,1 +1,1 @@
-# http-cheker-proxy-php
+start: php /checker.php
